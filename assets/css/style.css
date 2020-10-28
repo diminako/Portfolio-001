@@ -4,7 +4,7 @@
 
 body {
     background: linear-gradient(rgba(173, 187, 144, 0.247), rgba(103, 156, 140, 0.5)),
-    url('/assets/images/lake.jpg');
+    url('../images/lake.jpg');
     background-repeat: no-repeat;
     background-position: center;
     width: auto;
