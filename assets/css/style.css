@@ -8,20 +8,25 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     width: auto;
-    height: 890px;
+    min-height: 100vh;
 }
 
 #nav-css {
     background-color: #91c79c;
 }
 
-.nav-link {
+a {
     color: aliceblue;
 }
 
 footer {
     background-color: #91c79c;
-    text-align: center;
-    padding-top: 10px;
-    height: 50px;
+}
+
+#profile-img {
+    height: 250px;
+}
+
+.section-div {
+    background-color: whitesmoke;
 }
