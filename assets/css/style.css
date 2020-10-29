@@ -36,3 +36,7 @@ footer {
     margin-left: 1vh;
     background-color: whitesmoke;
 }
+
+.section-main {
+    background-color: whitesmoke; padding: 2em;
+}

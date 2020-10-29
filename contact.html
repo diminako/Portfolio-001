@@ -10,14 +10,14 @@
 
     <link rel="stylesheet" href="assets/css/style.css">
 
-    <title>Document</title>
+    <title>Dimitri Nakos - Web Developer</title>
 </head>
 
 <body>
 
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light" id="nav-css">
-        <a class="navbar-brand" href="index.html"><strong>Dimitri Nakos</strong></a>
+        <a class="navbar-brand" href="index.html"><span id="dimi"><strong>Dimitri Nakos</strong></span></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -41,26 +41,37 @@
 
 
     <section class="mt-5">
-        <div class="container section-div">
-            <div class="row p-2">Contact</div>
-
-            <div class="row">
-                <form class=" p-2">
-                    <div class="form-group">
-                        <label for="exampleFormControlInput1">Name</label>
-                        <input type="" class="form-control" id="exampleFormControlInput1" placeholder="Name">
+        <div class="container">
+            <div class="col-md-12">
+                <main class="section-main">
+                    <div class="row">
+                        <h1 class="col-xs-4 display-5 p-3">About Me
+                            <hr>
+                        </h1>
                     </div>
-                    <div class="form-group">
-                        <label for="exampleFormControlInput1">Email address</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <form class=" p-2">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Name</label>
+                                    <input type="" class="form-control" id="exampleFormControlInput1"
+                                        placeholder="Name">
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Email address</label>
+                                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                                        placeholder="Email">
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleFormControlTextarea1">Message</label>
+                                    <textarea class="form-control" id="message" rows="3"
+                                        placeholder="Message"></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary mb-2">Submit</button>
+                            </form>
+                        </div>
                     </div>
-                    <div class="form-group">
-                        <label for="exampleFormControlTextarea1">Message</label>
-                        <textarea class="form-control" id="message" rows="3" placeholder="Message"></textarea>
-                    </div>
-                </form>
             </div>
-            <button type="submit" class="btn btn-primary mb-2">Submit</button>
         </div>
     </section>
 
