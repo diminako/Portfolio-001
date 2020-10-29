@@ -24,9 +24,15 @@ footer {
 }
 
 #profile-img {
-    height: 250px;
+    height: 225px;
 }
 
 .section-div {
+    background-color: whitesmoke;
+    margin: 2vh;
+}
+
+#dimi {
+    margin-left: 1vh;
     background-color: whitesmoke;
 }
