@@ -27,22 +27,12 @@ footer {
     height: 225px;
 }
 
-.section-div {
-    background-color: whitesmoke;
-    margin: 2vh;
-}
-
 #dimi {
     margin-left: 1vh;
     background-color: whitesmoke;
 }
 
-.section-main {
-    background-color: whitesmoke; 
-    padding: 2em;
-}
-
-.section-main-port {
+.sec-main, .section-main-port {
     background-color: whitesmoke; 
     padding: 2em;
 }
