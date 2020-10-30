@@ -13,4 +13,4 @@ And to test my bootstrap abilities while minimizing CSS as a crutch.
 
 ## Screen Shot of the webpage
 
-![Image of the webpage](https://raw.githubusercontent.com/diminako/Portfolio-001/blob/main/assets/images/screenshot.png)
+![Image of the webpage](https://raw.githubusercontent.com/diminako/Portfolio-001/main/assets/images/screenshot.png)
